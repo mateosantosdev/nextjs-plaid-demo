@@ -15,4 +15,4 @@ pnpm install
 pnpm run dev
 ```
 
-![NextJS + Plaid Demo](https://github.com/mateosantosdev/nextjs-plaid-demo/blob/master/public/screenshot.png?raw=true)
+![NextJS + Plaid Demo](https://user-images.githubusercontent.com/531611/211168874-879e246a-8fb3-4b3f-b36f-f7e21d2132b8.png)
