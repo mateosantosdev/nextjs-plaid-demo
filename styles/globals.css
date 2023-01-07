@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-gray-800 text-gray-200;
 }
 
 a {
@@ -15,12 +19,33 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+main {
+  @apply p-5;
 }
+
+/*
+Tipography */
+h1 {
+  @apply text-3xl font-bold mb-5;
+}
+h2 {
+  @apply text-2xl font-bold mb-5;
+}
+h3{
+  @apply text-xl font-semibold mb-5;
+}
+
+/* Dashboard */
+.dashboardHeader{
+  @apply flex justify-between items-center mb-5;
+}
+.dashboardHeader h1{
+  @apply mb-0;
+}
+
+/* Rest */
+@import "table";
+@import "buttons";
+@import "accountList";
+@import "transactionDetail";
+@import "datepickers";

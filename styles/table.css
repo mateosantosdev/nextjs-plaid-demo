@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+  border-color: inherit;
+  text-indent: 0;
+  min-width: 100%;
+  table-layout: auto;
+}
+
+table th {
+  @apply bg-gray-500 text-white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1rem;
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table tbody tr{
+  @apply border-b;
+}
+table tbody td {
+  @apply text-gray-200 py-2;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

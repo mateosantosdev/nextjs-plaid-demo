@@ -1,0 +1,18 @@
+.accountList{
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-4 mb-5;
+}
+.accountList .card{
+  @apply rounded overflow-hidden shadow-md cursor-pointer border border-gray-700 hover:shadow-slate-700 ease-out duration-500;
+}
+.accountList .card.active{
+  @apply border-2 border-gray-100 bg-slate-900;
+}
+.accountList .card .inner{
+  @apply px-6 py-4;
+}
+.accountList .card .inner h3{
+  @apply font-bold text-xl mb-2;
+}
+.accountList .card .inner p{
+  @apply text-gray-300 text-base;
+}

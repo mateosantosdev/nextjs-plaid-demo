@@ -1,0 +1,11 @@
+.datepickers{
+  @apply mb-5;
+}
+
+.datepickers .pickers{
+  @apply flex;
+}
+
+.datepickers .pickers input{
+  @apply border bg-slate-900 py-1 px-2;
+}
